@@ -1,9 +1,10 @@
 import requests
 import time
+import os
 
 # ================= НАСТРОЙКИ =================
 
-BOT_TOKEN = "ВСТАВЬ_СЮДА_ТОКЕН"
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 CHANNEL = "@fhdhdjwowow"
 
